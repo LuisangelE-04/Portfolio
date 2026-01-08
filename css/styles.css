@@ -1,27 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+
 :root {
   --bg-color: #ffffff;
   --text-color: #333333;
   --accent-color: #0070f3;
   --nav-height: 70px;
   --glass-bg: rgba(255, 255, 255, 0.6);
-  --glass-blur: blur(14px) saturate(140%);
+  --glass-blur: blur(12px) saturate(140%);
   --glass-border: 1px solid rgba(255, 255, 255, 0.35);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Inter', sans-serif; padding-top: var(--nav-height); }
+body { 
+  font-family: 'Jura', 'Inter', sans-serif; padding-top: var(--nav-height); 
+  background-color: #faebd7;
+}
 
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
   height: var(--nav-height);
-  background: var(--glass-bg);
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   z-index: 1000;
-  transition: box-shadow ease 0.50s 0.40s;
+  transition: box-shadow ease 0.50s 0.35s;
 }
 
 .nav-container {
@@ -34,16 +38,16 @@ body { font-family: 'Inter', sans-serif; padding-top: var(--nav-height); }
   padding: 0 2rem;
 }
 
-/* Desktop Styles */
+.logo {
+  font-size: 2rem;
+}
+
 .nav-menu {
-  position: absolute;
+  position: fixed;
   left: 50%;
   transform: translateX(-50%);
   padding: 0;
-  background: var(--glass-bg);
-  backdrop-filter: var(--glass-blur);
-  -webkit-backdrop-filter: var(--glass-blur);
-  border-radius: 0, 0, 12px, 12px;
+  border-radius: 0 0 12px 12px;
 }
 
 .nav-list {
@@ -83,23 +87,32 @@ body { font-family: 'Inter', sans-serif; padding-top: var(--nav-height); }
   .hamburger.active .bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
   .hamburger.active .bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
+  .navbar {
+    background: #ffffff;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
   .nav-menu {
-    position: absolute;
+    position: fixed;
     top: var(--nav-height);
     left: 0;
     width: 100%;
-    background: var(--glass-bg);
-    backdrop-filter: var(--glass-blur);
-    -webkit-backdrop-filter: var(--glass-blur);
+    z-index: 999;
     transform: translateX(0);
-
     display: grid;
     grid-template-rows: 0fr;
-    transition: grid-template-rows 0.5s cubic-bezier(0.4, 0, 0.2, 1),
-                visibility 0.5s;
+    transition: grid-template-rows 0.5s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.5s;
     visibility: hidden;
     overflow: hidden;
-    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.08);
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .nav-menu::before {
+    content: none;
   }
 
   .navbar.active {
@@ -132,4 +145,8 @@ body { font-family: 'Inter', sans-serif; padding-top: var(--nav-height); }
     opacity: 1;
     padding: 2rem 0;
   }
+}
+
+.experience {
+  height: 100vh;
 }

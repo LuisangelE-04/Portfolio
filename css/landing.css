@@ -1,0 +1,27 @@
+.landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 85vh;
+}
+
+.landing h1 {
+  font-size: 6rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.socials-container {
+  display: flex;
+  width: 24rem;
+  height: 5rem;
+  gap: 2.5rem;
+  padding: 0.75rem 1.25rem;
+  justify-content: center;
+}
+
+.socials-container img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
