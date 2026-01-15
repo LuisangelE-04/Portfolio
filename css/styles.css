@@ -60,7 +60,7 @@ body {
   text-decoration: none;
   color: var(--text-color);
   font-weight: 500;
-  transition: color 0.3s;
+  transition: color 0.5s;
 }
 
 .hamburger {
@@ -88,7 +88,7 @@ body {
   .hamburger.active .bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
   .navbar {
-    background: #ffffff;
+    background: #faebd7;
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
   }
@@ -105,7 +105,7 @@ body {
     transition: grid-template-rows 0.5s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.5s;
     visibility: hidden;
     overflow: hidden;
-    background: #ffffff;
+    background: #faebd7;
     border-bottom: 1px solid #e5e7eb;
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
@@ -149,4 +149,13 @@ body {
 
 .experience {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience h2 {
+  margin-bottom: 4rem;
+  font-size: 4rem;
+  font-weight: 400;
 }

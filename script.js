@@ -18,7 +18,7 @@ document.querySelectorAll('.nav-list a').forEach(link => {
 const projects = [
   {
     title: "Abstract Architecture",
-    short: "Modern structural designs.",
+    short: "Modern structural designs. Click for more.",
     long: `
       <p>This is paragraph one of a very long description to test the scroll effect.</p>
       <p>We need enough content to exceed the height of the modal container.</p>
@@ -49,7 +49,7 @@ const projects = [
   },
   {
     title: "Digital Ecosystems",
-    short: "Future of web connectivity.",
+    short: "Future of web connectivity. Click for more.",
     long: "Exploring how integrated digital platforms are reshaping the way we interact with physical environments.",
     img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80"
   }

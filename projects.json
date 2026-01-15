@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Abstract Architecture",
+    "short": "Modern structural designs. Click for more.",
+    "long": "<p>This is paragraph one of a very long description to test the scroll effect.</p>\n<p>We need enough content to exceed the height of the modal container.</p>\n<ul>\n  <li>Feature 1: Sustainable materials</li>\n  <li>Feature 2: Minimalist aesthetic</li>\n  <li>Feature 3: Urban integration</li>\n</ul>\n<p>Repeating text to ensure scrolling: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>\n<p>More text... More text... More text... More text... More text...</p>\n<h3>Table of Contents</h3>\n<ul>\n  <li>Welcome</li>\n  <li>Dawn of Circuits</li>\n  <li>Echoes in the Archive</li>\n  <li>Glass Cities</li>\n  <li>The Silent Compiler</li>\n  <li>Threads of Light</li>\n  <li>Vector Horizon</li>\n  <li>Memory of Rain</li>\n  <li>Luminous Errors</li>\n  <li>The Final Commit</li>\n  <li>Midnight Refactor</li>\n</ul>",
+    "img": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "title": "Digital Ecosystems",
+    "short": "Future of web connectivity. Click for more.",
+    "long": "Exploring how integrated digital platforms are reshaping the way we interact with physical environments.",
+    "img": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80"
+  }
+]
