@@ -17,41 +17,43 @@ document.querySelectorAll('.nav-list a').forEach(link => {
 
 const projects = [
   {
-    title: "Abstract Architecture",
-    short: "Modern structural designs. Click for more.",
+    title: "CougarCS",
+    short: "Held multiple leadership positions throughout 2 years.",
     long: `
-      <p>This is paragraph one of a very long description to test the scroll effect.</p>
-      <p>We need enough content to exceed the height of the modal container.</p>
+      <p>Coder Kids — Houston, TX (Jan 2025 – May 2025)</p>
       <ul>
-        <li>Feature 1: Sustainable materials</li>
-        <li>Feature 2: Minimalist aesthetic</li>
-        <li>Feature 3: Urban integration</li>
+        <li>Managed a class of 34 K-5 students, fostering confidence in a structured learning environment.</li>
+        <li>Used Scratch and Code.org to teach programming fundamentals through interactive, project-based learning.</li>
+        <li>Drove student growth and parent engagement with consistent weekly progress reporting.</li>
       </ul>
-      <p>Repeating text to ensure scrolling: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
-      <p>More text... More text... More text... More text... More text...</p>
-      <h3>Table of Contents</h3>
-      <ul>
-        <li>Welcome</li>
-        <li>Dawn of Circuits</li>
-        <li>Echoes in the Archive</li>
-        <li>Glass Cities</li>
-        <li>The Silent Compiler</li>
-        <li>Threads of Light</li>
-        <li>Vector Horizon</li>
-        <li>Memory of Rain</li>
-        <li>Luminous Errors</li>
-        <li>The Final Commit</li>
-        <li>Midnight Refactor</li>
-      </ul
     `,
-    img: "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=800&q=80"
+    img: "images/experiences/cougarcs-logo.svg"
   },
   {
-    title: "Digital Ecosystems",
-    short: "Future of web connectivity. Click for more.",
-    long: "Exploring how integrated digital platforms are reshaping the way we interact with physical environments.",
-    img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80"
+    title: "Information Technology Intern",
+    short: "Real-time monitoring and fleet tracking; reduced downtime by 30%.",
+    long: `
+      <p>Harris County Precinct 2 — Houston, TX (Jun 2024 – Aug 2024)</p>
+      <ul>
+        <li>Developed and implemented a real-time network monitoring tracker, reducing downtime by 30%.</li>
+        <li>Deployed a real-time vehicle tracking system to deliver location and usage analytics for better allocation.</li>
+        <li>Resolved 50+ hardware issues and trained 30+ staff across 13 sites, improving operational efficiency.</li>
+      </ul>
+    `,
+    img: "images/experiences/hc-precinct-2.png"
+  },
+  {
+    title: "Coding Instructor",
+    short: "Managed 34 K-5 students; built engaging, project-based CS lessons.",
+    long: `
+      <p>Coder Kids — Houston, TX (Jan 2025 – May 2025)</p>
+      <ul>
+        <li>Managed a class of 34 K-5 students, fostering confidence in a structured learning environment.</li>
+        <li>Used Scratch and Code.org to teach programming fundamentals through interactive, project-based learning.</li>
+        <li>Drove student growth and parent engagement with consistent weekly progress reporting.</li>
+      </ul>
+    `,
+    img: "images/experiences/coder-kids.svg"
   }
 ];
 
