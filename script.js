@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: "Information Technology Intern",
-    short: "Real-time monitoring and fleet tracking; reduced downtime by 30%.",
+    short: "Real-time monitoring and fleet tracking; reduced downtime response rates.",
     long: `
       <p>Harris County Precinct 2 — Houston, TX (Jun 2024 – Aug 2024)</p>
       <ul>

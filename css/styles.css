@@ -163,7 +163,7 @@ body {
 
 .experience h2 {
   margin-bottom: 2rem;
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 400;
 }
 
@@ -175,7 +175,7 @@ body {
   }
 
   .experience h2 {
-    font-size: clamp(2.4rem, 8vw, 3rem);
+    font-size: clamp(2rem, 8vw, 3rem);
     text-align: center;
   }
 }
