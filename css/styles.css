@@ -29,12 +29,16 @@ body {
 }
 
 .fade-section {
+  position: relative;
+}
+
+.fade-section > * {
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease, transform 0.8s ease-out;
 }
 
-.fade-section.is-visible {
+.fade-section.is-visible > * {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 2s ease, transform 2s ease-out;
@@ -201,6 +205,7 @@ body {
     padding: 3rem 1rem;
     gap: 1.5rem;
     min-height: auto;
+    background: linear-gradient(180deg, #d9e8ff 0%, #e4edff 32%, #eef3ff 62%, #f7f9ff 88%, #ffffff 100%);
   }
 
   .experience h2 {

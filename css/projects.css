@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+  .projects {
+    background: linear-gradient(180deg, #ffffff 0%, #f7f9ff 20%, #eef3ff 55%, #e4edff 78%, #d9e8ff 100%);
+  }
+}
