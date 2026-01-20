@@ -18,13 +18,27 @@ document.querySelectorAll('.nav-list a').forEach(link => {
 const projects = [
   {
     title: "CougarCS",
-    short: "Held multiple leadership positions throughout 2 years.",
+    short: "Corporate Relations Officer & Algorithms Workshop Director at CougarCS.",
     long: `
-      <p>Coder Kids — Houston, TX (Jan 2025 – May 2025)</p>
+      <h3>Corporate Relations Officer — University of Houston (May 2025 – Jan 2026)</h3>
       <ul>
-        <li>Managed a class of 34 K-5 students, fostering confidence in a structured learning environment.</li>
-        <li>Used Scratch and Code.org to teach programming fundamentals through interactive, project-based learning.</li>
-        <li>Drove student growth and parent engagement with consistent weekly progress reporting.</li>
+        <li>Drove a 10.82% membership increase (Aug–Nov 2025) by securing 16+ partnerships with major companies.</li>
+        <li>Facilitated event logistics via weekly executive meetings to ensure smooth operations.</li>
+        <li>Honed professional communication by securing partnerships and sponsorships with corporations.</li>
+      </ul>
+      <br>
+      <h3>Algorithms Workshop Director — University of Houston (Jan 2025 – May 2025)</h3>
+      <ul>
+        <li>Directed and delivered COSC3320 workshops, giving 150+ students tailored study resources.</li>
+        <li>Empowered a team of 3+ tutors, overseeing content creation and facilitation for high-quality support.</li>
+        <li>Built confidence in public and technical communication by explaining complex CS topics clearly.</li>
+      </ul>
+      <br>
+      <h3>Operations Team Member — University of Houston (August 2024 – May 2025)</h3>
+      <ul>
+        <li>Executed 50+ high-scale events by managing food service, technical setup, and rapid teardown to ensure seamless operations for over hundreds of attendees.</li>
+        <li>Recognized as the "backbone" of event operations for maintaining high reliability and speed in high-pressure environments.</li>
+        <li>Strategically analyzed CougarCS leadership operations to understand the logistics and stakeholder management required to host large-scale professional development events.</li>
       </ul>
     `,
     img: "images/experiences/cougarcs-logo.svg"
@@ -33,7 +47,7 @@ const projects = [
     title: "Information Technology Intern",
     short: "Real-time monitoring and fleet tracking; reduced downtime response rates.",
     long: `
-      <p>Harris County Precinct 2 — Houston, TX (Jun 2024 – Aug 2024)</p>
+      <h3>Harris County Precinct 2 — Houston, TX (Jun 2024 – Aug 2024)</h3>
       <ul>
         <li>Developed and implemented a real-time network monitoring tracker, reducing downtime by 30%.</li>
         <li>Deployed a real-time vehicle tracking system to deliver location and usage analytics for better allocation.</li>
@@ -46,7 +60,7 @@ const projects = [
     title: "Coding Instructor",
     short: "Managed 34 K-5 students; built engaging, project-based CS lessons.",
     long: `
-      <p>Coder Kids — Houston, TX (Jan 2025 – May 2025)</p>
+      <h3>Coder Kids — Houston, TX (Jan 2025 – May 2025)</h3>
       <ul>
         <li>Managed a class of 34 K-5 students, fostering confidence in a structured learning environment.</li>
         <li>Used Scratch and Code.org to teach programming fundamentals through interactive, project-based learning.</li>
