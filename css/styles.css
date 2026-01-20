@@ -213,6 +213,12 @@ body {
 }
 
 @media (max-width: 768px) {
+  .fade-section {
+    opacity: 1;
+  }
+  .fade-section > * {
+    opacity: 0.75;
+  }
   .experience {
     padding: 3rem 1rem;
     gap: 1.5rem;
