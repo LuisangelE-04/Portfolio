@@ -112,7 +112,7 @@ body {
 @media (max-width: 768px) {
   html { scroll-snap-type: none; }
   .snap-section { scroll-snap-align: none; scroll-snap-stop: unset; }
-  .fade-section { opacity: 0.55; }
+  .fade-section { opacity: 0.80; }
 
   .hamburger { display: block; z-index: 1001; }
 
