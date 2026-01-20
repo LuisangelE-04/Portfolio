@@ -29,12 +29,16 @@ body {
 }
 
 .fade-section {
+  position: relative;
+}
+
+.fade-section > * {
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease, transform 0.8s ease-out;
 }
 
-.fade-section.is-visible {
+.fade-section.is-visible > * {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 2s ease, transform 2s ease-out;
@@ -112,7 +116,7 @@ body {
 @media (max-width: 768px) {
   html { scroll-snap-type: none; }
   .snap-section { scroll-snap-align: none; scroll-snap-stop: unset; }
-  .fade-section { opacity: 0.55; }
+  .fade-section { opacity: 0.80; }
 
   .hamburger { display: block; z-index: 1001; }
 
@@ -185,15 +189,27 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
-  width: 100%;
-  padding: 4rem 1.5rem;
+  padding: 5rem 1.5rem;
+  background: linear-gradient(180deg, #d9e8ff 0%, #e4edff 35%, #eef3ff 65%, #f7f9ff 85%, #ffffff 100%);
+}
+
+.experience-shell {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
 }
 
 .experience h2 {
-  margin-bottom: 2rem;
-  font-size: 4.5rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
   font-weight: 400;
+  text-align: left;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -201,10 +217,16 @@ body {
     padding: 3rem 1rem;
     gap: 1.5rem;
     min-height: auto;
+    background: linear-gradient(180deg, #d9e8ff 0%, #e4edff 32%, #eef3ff 62%, #f7f9ff 88%, #ffffff 100%);
+  }
+
+  .experience-shell {
+    width: 100%;
+    gap: 1.25rem;
   }
 
   .experience h2 {
-    font-size: clamp(2rem, 8vw, 3rem);
-    text-align: center;
+    font-size: clamp(1.8rem, 6vw, 2.4rem);
+    text-align: left;
   }
 }
