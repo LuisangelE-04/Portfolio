@@ -128,7 +128,7 @@
 }
 
 .stat {
-	background: rgba(255, 255, 255, 0.8);
+	background: #ffffffcc;
 	border: 1px solid rgba(15, 23, 42, 0.08);
 	border-radius: 14px;
 	padding: 1rem 1.1rem;
@@ -148,7 +148,7 @@
 }
 
 .about-panel {
-	background: linear-gradient(145deg, #0f172a, #111827);
+	background: linear-gradient(145deg, #6f87be, #4f5769);
 	color: #e5edff;
 	border-radius: 20px;
 	padding: 1.75rem;
@@ -169,7 +169,7 @@
 	font-size: 0.8rem;
 }
 
-.badge-contrast { background: #fbbf24; color: #0f172a; }
+.badge-contrast { background: #e63b1d; color: #0f172a; }
 
 .panel-title {
 	font-size: 1.6rem;

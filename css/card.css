@@ -1,7 +1,7 @@
 :root {
   --bg-color: #f8f9fa;
   --accent-color: rgba(0, 0, 0, 0.30);
-  --card-bg: #fdfdf0;
+  --card-bg: #ffffffe3;
   --text-main: #1a1a1a;
   --text-muted: #666666;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
