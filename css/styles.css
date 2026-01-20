@@ -195,11 +195,20 @@ body {
   background: linear-gradient(180deg, #d9e8ff 0%, #e4edff 35%, #eef3ff 65%, #f7f9ff 85%, #ffffff 100%);
 }
 
+.experience-shell {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
 .experience h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 4rem;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
@@ -209,6 +218,11 @@ body {
     gap: 1.5rem;
     min-height: auto;
     background: linear-gradient(180deg, #d9e8ff 0%, #e4edff 32%, #eef3ff 62%, #f7f9ff 88%, #ffffff 100%);
+  }
+
+  .experience-shell {
+    width: 100%;
+    gap: 1.25rem;
   }
 
   .experience h2 {
