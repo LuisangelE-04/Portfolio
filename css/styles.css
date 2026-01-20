@@ -189,16 +189,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
-  width: 100%;
-  padding: 4rem 1.5rem;
+  padding: 5rem 1.5rem;
   background: linear-gradient(180deg, #d9e8ff 0%, #e4edff 35%, #eef3ff 65%, #f7f9ff 85%, #ffffff 100%);
 }
 
 .experience h2 {
   margin-bottom: 2rem;
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 400;
+  text-align: center;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -210,7 +212,7 @@ body {
   }
 
   .experience h2 {
-    font-size: clamp(2rem, 8vw, 3rem);
-    text-align: center;
+    font-size: clamp(1.8rem, 6vw, 2.4rem);
+    text-align: left;
   }
 }
