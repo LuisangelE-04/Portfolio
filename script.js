@@ -101,3 +101,16 @@ modal.addEventListener('click', (e) => {
 window.addEventListener('keydown', (e) => {
   if (e.key === 'Escape' && modal.classList.contains('active')) handleClose();
 });
+
+const fadeSections = document.querySelectorAll('.fade-section');
+const fadeObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-visible');
+    } else {
+      entry.target.classList.remove('is-visible');
+    }
+  });
+}, { threshold: 0.4 });
+
+fadeSections.forEach(sec => fadeObserver.observe(sec));
