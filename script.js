@@ -74,6 +74,7 @@ const projects = [
 const grid = document.getElementById('card-grid');
 const modal = document.getElementById('modal-overlay');
 const closeModal = document.getElementById('close-modal');
+const modalBody = document.querySelector('.modal-body');
 
 projects.forEach(project => {
   const card = document.createElement('div');
@@ -96,8 +97,9 @@ function openModal(project) {
   document.getElementById('modal-img').src = project.img;
   document.getElementById('modal-title').textContent = project.title;
   document.getElementById('modal-description').innerHTML = project.long;
+  modalBody.scrollTop = 0; 
   modal.classList.add('active');
-  document.body.style.overflow = 'hidden'; // Prevent scroll
+  document.body.style.overflow = 'hidden'; 
 }
 
 function handleClose() {
